@@ -230,6 +230,8 @@ class Upcoming_Events_Lists {
 			}
 			$logo_event .= "</div>";
 			$content = $content . $logo_event;
+			$content .= '<br><h3 style="text-align: center">Вы можете зарегистрироваться онлайн с помощью формы ниже. Пожалуйста укажите в комментарии название семинара!</h3><br>';
+			$content .= do_shortcode('[contact-form-7 id="6677" title="Регистрация на семинар"]');
 		}
 		return $content;
 	}

@@ -492,7 +492,6 @@ class wpdev_booking {
         
         $booking_is_show_powered_by_notice = get_bk_option( 'booking_is_show_powered_by_notice' );          
         if ( (!class_exists('wpdev_bk_personal')) && ($booking_is_show_powered_by_notice == 'On') )
-            $calendar .= '<div style="font-size:9px;text-align:left;margin-top:3px;">Powered by <a style="font-size:9px;" href="https://wpbookingcalendar.com" target="_blank" title="Booking Calendar plugin for WordPress">Booking Calendar</a></div>';
                 
         $calendar .= '<textarea id="date_booking'.$bk_type.'" name="date_booking'.$bk_type.'" autocomplete="off" style="display:none;"></textarea>';   // Calendar code
         

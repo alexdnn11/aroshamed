@@ -9,11 +9,29 @@
  * @since TemplateMela 1.0
  */
 ?>
+<?php
+$event=false;
+$actual_link = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+if(stripos($actual_link,"/events/")){
+	$event=true;
+}
+?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <div class="entry-main-content">
 	<?php if ( is_search() || !is_single()) : // Only display Excerpts for Search and not single pages ?>
-	  <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-            <a href="<?php echo esc_url(get_permalink()); ?>">
+	  <?php if ( has_post_thumbnail() && ! post_password_required() ) :
+			$event_start_date = get_post_meta( get_the_ID(), 'event-start-date', true );
+			$event_end_date = get_post_meta( get_the_ID(), 'event-end-date', true );
+			$event_venue = get_post_meta( get_the_ID(), 'event-venue', true );
+			if($event){
+			echo '<div class="c-event events-page">
+			<div class="sd-event i-event"><h5><strong>Дата начала:</strong><br>'.date_i18n( get_option( 'date_format' ), $event_start_date ).'</h5></div>
+	<div class="ed-event i-event"><h5><strong>Дата окончания:</strong><br>'.date_i18n( get_option( 'date_format' ), $event_end_date ).'</h5></div>
+	<div class="p-event i-event"><h5><strong>Место проведения:</strong><br>'. $event_venue.'</h5></div>
+	</div>';
+			}
+			?>
+			<a href="<?php echo esc_url(get_permalink()); ?>">
             <div class="entry-thumbnail">
 			<?php 
 			the_post_thumbnail('blog-posts-list');
