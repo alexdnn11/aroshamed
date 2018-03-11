@@ -1,0 +1,403 @@
+.woocommerce.single-product.details-full-width div.product div.summary,.woocommerce-page.single-product.details-full-width div.product div.summary,.woocommerce.single-product.details-full-width #content div.product div.summary,.woocommerce-page.single-product.details-full-width #content div.product div.summary{width:100%;float:none}
+
+.repupress_customize_woocommerce_product-checkout-optional abbr.required, .repupress_customize_woocommerce_product-checkout-optional .required{
+   display: none !important;
+ }
+.gradient_33 {
+    background-color: #a5b8da !important;
+    background: #a5b8da !important;
+    background-image: -moz-linear-gradient(center top , #a5b8da, #7089b3) !important;
+    border: 1px solid #819bcb !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_33:hover {
+    background-color: #819bcb !important;
+    background: #819bcb !important;
+    background-image: -moz-linear-gradient(center top , #819bcb, #536f9d) !important;
+    border: 1px solid #819bcb !important;
+}
+.gradient_1 {
+    background-color: #ffd65e !important;
+    background: #ffd65e !important;
+    background-image: -moz-linear-gradient(center top , #ffd65e, #febf04) !important;
+    border: 1px solid #ffc92b !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_1:hover {
+    background-color: #ffc92b !important;
+    background: #ffc92b !important;
+    background-image: -moz-linear-gradient(center top , #ffc92b, #ce9a01) !important;
+    border: 1px solid #ffc92b !important;
+}
+.gradient_2 {
+    background-color: #606c88 !important;
+    background: #606c88 !important;
+    background-image: -moz-linear-gradient(center top , #606c88, #3f4c6b) !important;
+    border: 1px solid #4b546a !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_2:hover {
+    background-color: #4b546a !important;
+    background: #4b546a !important;
+    background-image: -moz-linear-gradient(center top , #4b546a, #2c354b) !important;
+    border: 1px solid #4b546a !important;
+}
+.gradient_3 {
+    background-color: #d5cea6 !important;
+    background: #d5cea6 !important;
+    background-image: -moz-linear-gradient(center top , #d5cea6, #b7ad70) !important;
+    border: 1px solid #c5bb83 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_3:hover {
+    background-color: #c5bb83 !important;
+    background: #c5bb83 !important;
+    background-image: -moz-linear-gradient(center top , #c5bb83, #a29752) !important;
+    border: 1px solid #c5bb83 !important;
+}
+.gradient_4 {
+    background-color: #a90329 !important;
+    background-image: -moz-linear-gradient(center top , #a90329, #6d0019) !important;
+    border: 1px solid #77021d !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_4:hover {
+    background-color: #77021d !important;
+    background-image: -moz-linear-gradient(center top , #77021d, #3a000d) !important;
+    border: 1px solid #77021d !important;
+}
+.gradient_5 {
+    background-color: #4ba614 !important;
+    background-image: -moz-linear-gradient(center top , #4ba614, #008c00) !important;
+    border: 1px solid #36780f !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_5:hover {
+    background-color: #36780f !important;
+    background-image: -moz-linear-gradient(center top , #36780f, #005900) !important;
+    border: 1px solid #36780f !important;
+}
+.gradient_6 {
+    background-color: #ff5db1 !important;
+    background-image: -moz-linear-gradient(center top , #ff5db1, #ef007c) !important;
+    border: 1px solid #ff2a98 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_6:hover {
+    background-color: #ff2a98 !important;
+    background-image: -moz-linear-gradient(center top , #ff2a98, #bc0062) !important;
+    border: 1px solid #ff2a98 !important;
+}
+.gradient_7 {
+    background-color: #7d7e7d !important;
+    background-image: -moz-linear-gradient(center top , #7d7e7d, #0e0e0e) !important;
+    border: 1px solid #646464 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_7:hover {
+    background-color: #646464 !important;
+    background-image: -moz-linear-gradient(center top , #646464, #282828) !important;
+    border: 1px solid #646464 !important;
+}
+.gradient_8 {
+    background-color: #cef8ff !important;
+    background-image: -moz-linear-gradient(center top , #cef8ff, #7fe0f8) !important;
+    border: 1px solid #9bf1ff !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_8:hover {
+    background-color: #9bf1ff !important;
+    background-image: -moz-linear-gradient(center top , #9bf1ff, #4fd4f5) !important;
+    border: 1px solid #9bf1ff !important;
+}
+.gradient_9 {
+    background-color: #f2f9fe !important;
+    background-image: -moz-linear-gradient(center top , #f2f9fe, #d6f0fd) !important;
+    border: 1px solid #c3e3fa !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_9:hover {
+    background-color: #c3e3fa !important;
+    background-image: -moz-linear-gradient(center top , #c3e3fa, #a5defb) !important;
+    border: 1px solid #c3e3fa !important;
+}
+.gradient_10 {
+    background-color: #fb83fa !important;
+    background-image: -moz-linear-gradient(center top , #fb83fa, #e93cec) !important;
+    border: 1px solid #f952f8 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_10:hover {
+    background-color: #f952f8 !important;
+    background-image: -moz-linear-gradient(center top , #f952f8, #dc16df) !important;
+    border: 1px solid #f952f8 !important;
+}
+.gradient_11 {
+    background-color: #3093c7 !important;
+    background-image: -moz-linear-gradient(center top , #3093c7, #1c5a85) !important;
+    border: 1px solid #26759e !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_11:hover {
+    background-color: #26759e !important;
+    background-image: -moz-linear-gradient(center top , #26759e, #133d5b) !important;
+    border: 1px solid #26759e !important;
+}
+.gradient_12 {
+    background-color: #a9db80 !important;
+    background-image: -moz-linear-gradient(center top , #a9db80, #96c56f) !important;
+    border: 1px solid #8ed058 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_12:hover {
+    background-color: #8ed058 !important;
+    background-image: -moz-linear-gradient(center top , #8ed058, #7bb64b) !important;
+    border: 1px solid #8ed058 !important;
+}
+.gradient_13 {
+    background-color: #b29af8 !important;
+    background-image: -moz-linear-gradient(center top , #b29af8, #9174ed) !important;
+    border: 1px solid #8e6af5 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_13:hover {
+    background-color: #8e6af5 !important;
+    background-image: -moz-linear-gradient(center top , #8e6af5, #6d47e7) !important;
+    border: 1px solid #8e6af5 !important;
+}
+.gradient_14 {
+    background-color: #f2f5f6 !important;
+    background-image: -moz-linear-gradient(center top , #f2f5f6, #c8d7dc) !important;
+    border: 1px solid #d4dee1 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_14:hover {
+    background-color: #d4dee1 !important;
+    background-image: -moz-linear-gradient(center top , #d4dee1, #a9c0c8) !important;
+    border: 1px solid #d4dee1 !important;
+}
+.gradient_15 {
+    background-color: #ffc579 !important;
+    background-image: -moz-linear-gradient(center top , #ffc579, #fb9d23) !important;
+    border: 1px solid #ffaf46 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_15:hover {
+    background-color: #ffaf46 !important;
+    background-image: -moz-linear-gradient(center top , #ffaf46, #e78404) !important;
+    border: 1px solid #ffaf46 !important;
+}
+.gradient_16 {
+    background-color: #d3d3d3 !important;
+    background-image: -moz-linear-gradient(center top , #d3d3d3, #707070) !important;
+    border: 1px solid #bababa !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_16:hover {
+    background-color: #bababa !important;
+    background-image: -moz-linear-gradient(center top , #bababa, #575757) !important;
+    border: 1px solid #bababa !important;
+}
+.gradient_17 {
+    background-color: #fcfac0 !important;
+    background-image: -moz-linear-gradient(center top , #fcfac0, #f6f283) !important;
+    border: 1px solid #faf68f !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_17:hover {
+    background-color: #faf68f !important;
+    background-image: -moz-linear-gradient(center top , #faf68f, #f3ed53) !important;
+    border: 1px solid #faf68f !important;
+}
+.gradient_18 {
+    background-color: #f4f5f5 !important;
+    background-image: -moz-linear-gradient(center top , #f4f5f5, #dfdddd) !important;
+    border: 1px solid #d6d6d6 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_18:hover {
+    background-color: #d9dddd !important;
+    background-image: -moz-linear-gradient(center top , #d9dddd, #c6c3c3) !important;
+    border: 1px solid #d6d6d6 !important;
+}
+.gradient_19 {
+    background-color: #f7e3e3 !important;
+    background-image: -moz-linear-gradient(center top , #f7e3e3, #ffd7d7) !important;
+    border: 1px solid #ecbbbb !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_19:hover {
+    background-color: #ecbbbb !important;
+    background-image: -moz-linear-gradient(center top , #ecbbbb, #ffa4a4) !important;
+    border: 1px solid #ecbbbb !important;
+}
+.gradient_20 {
+    background-color: #ff9a9a !important;
+    background: #ff9a9a !important;
+    background-image: -moz-linear-gradient(center top , #ff9a9a, #ff4040) !important;
+    border: 1px solid #ff6767 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_20:hover {
+    background-color: #ff6767 !important;
+    background: #ff6767 !important;
+    background-image: -moz-linear-gradient(center top , #ff6767, #ff0d0d) !important;
+    border: 1px solid #ff6767 !important;
+}
+.gradient_21 {
+    background-color: #a9a588 !important;
+    background-image: -moz-linear-gradient(center top , #a9a588, #8e865b) !important;
+    border: 1px solid #938e6b !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_21:hover {
+    background-color: #938e6b !important;
+    background-image: -moz-linear-gradient(center top , #938e6b, #6f6947) !important;
+    border: 1px solid #938e6b !important;
+}
+.gradient_22 {
+    background-color: #f62b2b !important;
+    background-image: -moz-linear-gradient(center top , #f62b2b, #d20202) !important;
+    border: 1px solid #e40a0a !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_22:hover {
+    background-color: #e40a0a !important;
+    background-image: -moz-linear-gradient(center top , #e40a0a, #9f0202) !important;
+    border: 1px solid #e40a0a !important;
+}
+.gradient_23 {
+    background-color: #a67939 !important;
+    background-image: -moz-linear-gradient(center top , #a67939, #845108) !important;
+    border: 1px solid #805d2c !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_23:hover {
+    background-color: #805d2c !important;
+    background-image: -moz-linear-gradient(center top , #805d2c, #543305) !important;
+    border: 1px solid #805d2c !important;
+}
+.gradient_24 {
+    background-color: #d2d2f9 !important;
+    background-image: -moz-linear-gradient(center top , #d2d2f9, #a6a6f2) !important;
+    border: 1px solid #a5a5f3 !important;
+    border-radius: 3px !important;
+    
+}
+.gradient_24:hover {
+    background-color: #a5a5f3 !important;
+    background-image: -moz-linear-gradient(center top , #a5a5f3, #7a7aeb) !important;
+    border: 1px solid #a5a5f3 !important;
+}
+.gradient_25 {
+    background-color: #49c0f0 !important;
+    background-image: linear-gradient(to bottom, #49c0f0, #2cafe3) !important;
+    border: 1px solid #15aeec !important;
+    border-radius: 3px !important;
+}
+.gradient_25:hover {
+    background-color: #1ab0ec !important;
+    background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2) !important;
+    border: 1px solid #1090c3 !important;
+}
+.gradient_26 {
+    background-color: #cedce7 !important;
+    background-image: linear-gradient(to bottom, #cedce7, #596a72) !important;
+    border: 1px solid #a8c1d5 !important;
+    border-radius: 3px !important;
+}
+.gradient_26:hover {
+    background-color: #acc4d6 !important;
+    background-image: linear-gradient(to bottom, #acc4d6, #434f55) !important;
+    border: 1px solid #8aabc5 !important;
+}
+.gradient_27 {
+    background-color: #b6e026 !important;
+    background-image: linear-gradient(to bottom, #b6e026, #abdc28) !important;
+    border: 1px solid #91b41a !important;
+    border-radius: 3px !important;
+}
+.gradient_27:hover {
+    background-color: #95b91a !important;
+    background-image: linear-gradient(to bottom, #95b91a, #8bb41d) !important;
+    border: 1px solid #718c14 !important;
+}
+.gradient_28 {
+    background-color: #eab92d !important;
+    background-image: linear-gradient(to bottom, #eab92d, #c79810) !important;
+    border: 1px solid #cb9b14 !important;
+    border-radius: 3px !important;
+}
+.gradient_28:hover {
+    background-color: #cf9f15 !important;
+    background-image: linear-gradient(to bottom, #cf9f15, #98740c) !important;
+    border: 1px solid #a17b10 !important;
+}
+.gradient_29 {
+    background-color: #45484d !important;
+    background-image: linear-gradient(to bottom, #45484d, #000) !important;
+    border: 1px solid #2a2c2f !important;
+    border-radius: 3px !important;
+}
+.gradient_29:hover {
+    background-color: #2d2f32 !important;
+    background-image: linear-gradient(to bottom, #2d2f32, #1a1a1a) !important;
+    border: 1px solid #151617 !important;
+}
+.gradient_30 {
+    background-color: #92cfde !important;
+    background-image: linear-gradient(to bottom, #92cfde, #76bdd1) !important;
+    border: 1px solid #67bcd1 !important;
+    border-radius: 3px !important;
+}
+.gradient_30:hover {
+    background-color: #6bbed2 !important;
+    background-image: linear-gradient(to bottom, #6bbed2, #50abc4) !important;
+    border: 1px solid #44adc6 !important;
+}
+.gradient_31 {
+    background-color: #a7cfdf !important;
+    background-image: linear-gradient(to bottom, #a7cfdf, #23538a) !important;
+    border: 1px solid #7eb9d0 !important;
+    border-radius: 3px !important;
+}
+.gradient_31:hover {
+    background-color: #82bbd1 !important;
+    background-image: linear-gradient(to bottom, #82bbd1, #193b61) !important;
+    border: 1px solid #5ca6c4 !important;
+}
+.gradient_32 {
+    background-color: #e6e6e6 !important;
+    background-image: linear-gradient(to bottom, #e6e6e6, #ccc) !important;
+    border: 1px solid #cbcbca !important;
+    border-radius: 3px !important;
+}
+.gradient_32:hover {
+    background-color: #e6e6e6 !important;
+    background-image: linear-gradient(to bottom, #e6e6e6, #ccc) !important;
+    border: 1px solid #b3b3b3 !important;
+}
