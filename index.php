@@ -1,5 +1,5 @@
 <?php
-if (!preg_match( '|^www\..*|', $_SERVER [ 'HTTP_HOST' ]) && preg_match( '|^aroshamed\..*|', $_SERVER [ 'HTTP_HOST' ]) && !preg_match( '|^curacen.by\..*|', $_SERVER [ 'HTTP_HOST' ]) && !preg_match( '|^laennec.by\..*|', $_SERVER [ 'HTTP_HOST' ])) {
+if (!preg_match( '|^www\..*|', $_SERVER [ 'HTTP_HOST' ]) && preg_match( '|^aroshamed\..*|', $_SERVER [ 'HTTP_HOST' ]) && !preg_match( '|^curacen.by\..*|', $_SERVER [ 'HTTP_HOST' ]) && !preg_match( '|^laennec.by\..*|', $_SERVER [ 'HTTP_HOST' ]) && !preg_match( '|^aptos.by\..*|', $_SERVER [ 'HTTP_HOST' ])) {
     header ( 'HTTP/1.0 301 Moved Permanently' );
     $url = trim ($_SERVER [ 'REQUEST_URI' ], '/');
     if(trim($_SERVER [ 'REQUEST_URI' ], '/') != '') $url .= '/';

@@ -424,4 +424,9 @@ function save_extra_social_links( $user_id )
     update_user_meta( $user_id,'twitter_profile', sanitize_text_field( $_POST['twitter_profile'] ) );
     update_user_meta( $user_id,'google_profile', sanitize_text_field( $_POST['google_profile'] ) );
 }
+
+function my_upload_size_limit( $limit ) {
+add_filter( 'upload_size_limit', 'my_upload_size_limit' );
+    return wp_convert_hr_to_bytes( '10M' );
+}
 ?>
